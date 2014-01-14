@@ -54,42 +54,13 @@ $ brew tap phinze/cask
 $ brew install brew-cask
 ```
 
-To facilitate I made a file containing a list of apps that always install. Simply run via curl:
+To facilitate I made a file containing a [list of apps](https://github.com/pedronauck/my-workflow/blob/master/apps.md) that always install. Simply run via curl:
 
 ```sh
-curl -L https://gist.github.com/pedronauck/8422083/raw/applications.sh | sh
+curl -L https://raw.github.com/pedronauck/my-workflow/master/utils/apps.sh | sh
 ```
 
 Just make sure to move all apps from `/opt/homebrew-cask/Caskroom/` to `/Applications`. And to remove all installations files from `/Library/Caches/Homebrew`.
-
-Unfortunately some apps aren't available through [homebrew-cask](https://github.com/phinze/homebrew-cask), so you need to install it **manually**.
-
-###### App Store
-
-* [Pocket](http://getpocket.com/) for read later
-* [AppCleaner](http://www.freemacsoft.net/appcleaner/) for remove apps
-* [CodeBox](http://www.shpakovski.com/codebox/) for development snippets
-* [ColorSnapper](http://colorsnapper.com/) for pick colors in OSX
-* [LittleIpsum](http://littleipsum.com/) for generate lorem ipsum texts
-* [SimpleMind Free](http://www.simpleapps.eu/simplemind/desktop/osx) for make mind maps
-* [Sparrow](http://sparrowmailapp.com/) for mail client
-* [TweetDeck](https://itunes.apple.com/us/app/tweetdeck/id485812721?ls=1&mt=12) for tweet scheduling
-* [Unarchiver](http://wakaba.c3.cx/s/apps/unarchiver) for ZIP, RAR, etc
-
-###### In the dark side of the force
-
-* [Alfred 2](http://www.alfredapp.com/) for automatic workflow
-* [2Do](http://www.2doapp.com/) for tasks management
-* [A Better Finder Rename 9](http://www.publicspace.net/ABetterFinderRename/) for rename files/folders
-* [Adobe Creative Cloud](http://www.adobe.com/br/products/creativecloud.html) for design/webdesign/photography
-* [CleanMyMac 2](http://macpaw.com/cleanmymac) for clean osx
-* [Final Cut Pro](http://www.apple.com/br/finalcutpro/) for edit movies
-* [Growl](http://growl.info/) for notifications
-* [Keynote](https://www.apple.com/br/mac/keynote/) for make presentations
-* [ReadKit](http://readkitapp.com/) for read rss feeds
-* [VirtualHostX](http://clickontyler.com/virtualhostx/) for generate virtual hosts
-* [1Password](https://agilebits.com/onepassword) for password management
-
 
 ## 5. Generate SSH keys for GitHub
 
