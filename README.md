@@ -8,7 +8,6 @@ For keep my workflow organized and centralized, I created this repository. In he
 
 * [How do I setup my OSX](setup-osx.md)
 * [My application list](apps.md)
-* [Personal Sublime Text settings]()
 * [My dotfiles configuration]()
 * [A list of Alfred worflows]()
 * [Photoshop extensions that I use]()
