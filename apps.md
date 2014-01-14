@@ -1,5 +1,7 @@
 # My Application List
 
+This is a list of applications that I load in the file `utils/apps.sh` and installation with [homebrew-cask](https://github.com/phinze/homebrew-cask).
+
 ## What's included?
 
 ##### Browser
