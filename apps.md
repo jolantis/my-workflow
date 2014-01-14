@@ -37,7 +37,7 @@ This is a list of applications that I load in the file `utils/apps.sh` and insta
 
 Unfortunately some apps aren't available through [homebrew-cask](https://github.com/phinze/homebrew-cask), so you need to install it **manually**.
 
-###### App Store
+##### App Store
 
 * [Pocket](http://getpocket.com/) for read later
 * [AppCleaner](http://www.freemacsoft.net/appcleaner/) for remove apps
@@ -49,7 +49,7 @@ Unfortunately some apps aren't available through [homebrew-cask](https://github.
 * [TweetDeck](https://itunes.apple.com/us/app/tweetdeck/id485812721?ls=1&mt=12) for tweet scheduling
 * [Unarchiver](http://wakaba.c3.cx/s/apps/unarchiver) for ZIP, RAR, etc
 
-###### In the dark side of the force
+##### In the dark side of the force
 
 * [Alfred 2](http://www.alfredapp.com/) for automatic workflow
 * [2Do](http://www.2doapp.com/) for tasks management
