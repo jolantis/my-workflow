@@ -78,7 +78,8 @@ export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 </Directory>
 ```
 
-- And put these [dotfiles](/dotfiles) into `~/.oh-my-zsh/custom` folder.
+- Copy [gitconfig](/dotfiles/gitconfig) to root folder
+- And put these other [dotfiles](/dotfiles) into `~/.oh-my-zsh/custom` folder.
 
 ## 6. Install Applications
 
