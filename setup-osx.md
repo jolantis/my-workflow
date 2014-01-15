@@ -109,7 +109,7 @@ From that point on you're going to be able to do some git operations with GitHub
 
 Load alfred preferences through `~/Dropbox/personal/apps/alfred` and set Alfred to save preferences in Dropbox.
 
-![](http://i44.tinypic.com/123aatk.png)
+![](http://imageshack.com/a/img35/6530/4g72.png)
 
 ## 10. Download [IE test VMs](http://www.modern.ie/en-us/virtualization-tools) for [VirtualBox](https://www.virtualbox.org/)
 
