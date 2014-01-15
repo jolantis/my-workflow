@@ -67,6 +67,17 @@ export PATH=$PATH:$HOME/.rvm/bin
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 ```
 
+- Create file `<username>.conf` in folder `/etc/apache2/users` with this lines:
+
+```
+<Directory "/Users/<username>/Sites/">
+  Options Indexes FollowSymLinks MultiViews
+  AllowOverride All
+  Order allow,deny
+  Allow from all
+</Directory>
+```
+
 - And put these [dotfiles](/dotfiles) into `~/.oh-my-zsh/custom` folder.
 
 ## 6. Install Applications

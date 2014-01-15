@@ -6,12 +6,12 @@ For keep my workflow organized and centralized, I created this repository. In he
 
 ## What's included here?
 
-* [How do I setup my OSX](setup-osx.md)
-* [My application list](apps.md)
-* [My dotfiles configuration]()
-* [A list of Alfred worflows]()
-* [Photoshop extensions that I use]()
-* [A list of extensions for Chrome]()
+#### [How do I setup my OSX](setup-osx.md)
+#### [My application list](apps.md)
+#### [My dotfiles](/dotfiles)
+#### [Coding Style](/coding-style)
+#### [Photoshop extensions that I use]()
+#### [A list of extensions for Chrome]()
 
 ## Credits
 
