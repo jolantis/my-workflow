@@ -59,6 +59,7 @@ $ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 $ chsh -s /bin/zsh
 ```
 
+- Use [Dracula Theme](http://zenorocha.github.io/dracula-theme/) for iTerm2 and Zsh
 - Add this line in `.zshrc`:
 
 ```sh
