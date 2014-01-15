@@ -1,13 +1,14 @@
 # Setup Mac OS X
 
-This file represents a guide to make a clean install in Mac OS. Here is located all commands and procediments that's I have to do to have a perfect build.
+This file represents a guide to make a clean install in Mac OS. Here is located all commands and procediments that I have to do to make a perfect install.
 
 ## 1. Backup files/folder before setup
 
-I always try save my files and folder in a cloud storage to not have to do any backup, but I can't save some things, so I do a backup with these items. But the procedure is simple:
+I always try save my files and folder in a cloud storage for not have to do any backup, but I can't save some things, so I do a backup with these items. But the procedure is simple:
 
-- After this, copied `~/Sites` folder to `/Volumes/Dev/`
+- First, copied `~/Sites` folder to `/Volumes/Dev/`
 - Same folders I copy for my external HD:
+
 ```
 ~/Downloads
 ~/Pictures
@@ -15,12 +16,13 @@ I always try save my files and folder in a cloud storage to not have to do any b
 ~/Music
 ~/Library/Fonts
 ```
+
 - Copy my Adobe preferences (Photoshop, Illustrator, Lightroom) into folder `~/Library/Preferences`
 - Put my local databases in `~/Dropbox/personall/to-backup/databases`
 
-## 2. Reinstalling OSX
+## 2. Full and clean OSX Install
 
-Para fazer a reinstalação do OSX existe alguns passos que tem que ser feitos. Antes de tudo é importante criar um disco de boot com o OSX desejado (este tutorial explica bem como fazer). Também não vou mostrar aqui como formatar e reinstalar o Mac através de um disco de boot, sei esse procedimento de cor, caso queira aprender este post explica bem.
+To make a full and clean OSX install have many steps that you have to follow. So, before any thing is very important create a boot disc with a OSX install file. I won't show how you make to format your Mac, but if you want learn, this site has a [good tutorial](http://lifehacker.com/how-to-create-an-os-x-mavericks-usb-installation-drive-1450280026) for this.
 
 ## 3. Run Software Update
 
