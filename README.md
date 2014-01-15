@@ -1,4 +1,4 @@
-# My beatufiul Workflow
+# My cool Workflow
 
 A developer can't survive without a organized workflow. I believe that all developers should have a documentation with your processes. All days I'm changing and optimizing my workflow, I think I'm a little neurotic with this.
 
