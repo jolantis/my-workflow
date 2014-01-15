@@ -32,8 +32,6 @@ It is good to write code idiomatically in each language and not bring, for examp
 * [Ruby](https://github.com/bbatsov/ruby-style-guide/blob/master/README.md)
 * [Rails](https://github.com/bbatsov/rails-style-guide/blob/master/README.md)
 
----
-
 ### [How do I setup my OSX](setup-osx.md)
 ### [My application list](apps.md)
 ### [My dotfiles](/dotfiles)
