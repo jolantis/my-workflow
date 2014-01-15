@@ -6,8 +6,8 @@ This file represents a guide to make a clean install in Mac OS. Here is located 
 
 I always try save my files and folder in a cloud storage for not have to do any backup, but I can't save some things, so I do a backup with these items. But the procedure is simple:
 
-- First, copied `~/Sites` folder to `/Volumes/Dev/`
-- Same folders I copy for my external HD:
+- First, move the `~/Sites` folder to `/Volumes/Dev/Sites`
+- After this, have same folders that I copy for my external hard disk:
 
 ```
 ~/Downloads
@@ -17,8 +17,10 @@ I always try save my files and folder in a cloud storage for not have to do any 
 ~/Library/Fonts
 ```
 
-- Copy my Adobe preferences (Photoshop, Illustrator, Lightroom) into folder `~/Library/Preferences`
-- Put my local databases in `~/Dropbox/personall/to-backup/databases`
+- Backup the Adobe preferences (Photoshop, Illustrator, Lightroom) within the folder `~/Library/Preferences`
+- And finally, export local databases into `~/Dropbox/personall/to-backup/databases`
+
+It's a very quick process.
 
 ## 2. Full and clean OSX Install
 
@@ -65,7 +67,7 @@ export PATH=$PATH:$HOME/.rvm/bin
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 ```
 
-- And put these [dotfiles](/dotfiles) in `.oh-my-zsh/custom` folder.
+- And put these [dotfiles](/dotfiles) into `~/.oh-my-zsh/custom` folder.
 
 ## 6. Install Applications
 
@@ -84,11 +86,11 @@ curl -L https://raw.github.com/pedronauck/my-workflow/master/utils/apps.sh | sh
 
 Just make sure to move all apps from `/opt/homebrew-cask/Caskroom/` to `/Applications`. And to remove all installations files from `/Library/Caches/Homebrew`.
 
-## 7. Configure [Sublime Text](http://sublimetext.com/)
+## 7. Configure Applications
 
-***TODO: Create a repo containing my sublime settings***
+So, the first thing is **restore all folders** of the backup. After this, have some configurations in specific apps that has to be made.
 
-There you can find the whole list of plugins, preferences and snippets.
+After restore `fonts, music, Adobe preferences and others`, go to `~/Library/Application Suport/Sublime Text 3` delete `Packages` folder and clone [this repository](https://github.com/pedronauck/sublime-settings) instead.
 
 ## 8. Set my SSH Key in Github/Bitbucket
 
