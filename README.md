@@ -6,10 +6,35 @@ For keep my workflow organized and centralized, I created this repository. In he
 
 ## What's included here?
 
+#### [Coding Style](/coding-style)
+
+It is good to write code idiomatically in each language and not bring, for example, Python experience to JavaScript. [These documents](/coding-style) describes idiomatic & widely-used by the languages communities styles of coding.
+
+###### Until the death
+
+* Readability counts.
+* Be consistent.
+* Each object has only one responsability.
+* [SOLID](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) for anything.
+* [Don't repeat yourself](http://en.wikipedia.org/wiki/Don't_repeat_yourself).
+* [Convention over configuration](http://en.wikipedia.org/wiki/Convention_over_configuration)
+* Flat is better than nested.
+* Beautiful is better than ugly.
+* Simple is better than complex.
+* Add blank line to the end of every file.
+* Limit lines to 80 characters.
+
+###### Style Guides
+
+* [CSS](/coding-style/css.md)
+* [Javascript](/coding-style/javacript.md)
+* [AngularJS](https://github.com/mgechev/angularjs-style-guide/blob/master/README-pt-br.md)
+* [Ruby](https://github.com/bbatsov/ruby-style-guide/blob/master/README.md)
+* [Rails](https://github.com/bbatsov/rails-style-guide/blob/master/README.md)
+
 #### [How do I setup my OSX](setup-osx.md)
 #### [My application list](apps.md)
 #### [My dotfiles](/dotfiles)
-#### [Coding Style](/coding-style)
 #### [Photoshop extensions that I use]()
 #### [A list of extensions for Chrome]()
 
