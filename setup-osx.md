@@ -50,7 +50,7 @@ For shell I'm using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), beca
 
 - Install oh-my-zsh with these commands:
 
-```
+```sh
 # install via curl
 $ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 # copy .zshrc template
@@ -81,7 +81,7 @@ $ brew install brew-cask
 To facilitate I made a file containing a [list of apps](apps.md) that always install. Simply run via curl:
 
 ```sh
-curl -L https://raw.github.com/pedronauck/my-workflow/master/utils/apps.sh | sh
+$ curl -L https://raw.github.com/pedronauck/my-workflow/master/utils/apps.sh | sh
 ```
 
 Just make sure to move all apps from `/opt/homebrew-cask/Caskroom/` to `/Applications`. And to remove all installations files from `/Library/Caches/Homebrew`.
@@ -117,11 +117,11 @@ These take a while to download, so maybe do it on a separate day as a background
 
 ```sh
 # IE8 - XP
-curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE8_XP/IE8.XP.For.MacVirtualBox.ova"
+$ curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE8_XP/IE8.XP.For.MacVirtualBox.ova"
 
 # IE9 - Win7
-curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE9_Win7/IE9.Win7.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar}"
+$ curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE9_Win7/IE9.Win7.For.MacVirtualBox.part{1.sfx,2.rar,3.rar,4.rar,5.rar}"
 
 # IE10 - Win8
-curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE10_Win8/IE10.Win8.For.MacVirtualBox.part{1.sfx,2.rar,3.rar}"
+$ curl -O "https://az412801.vo.msecnd.net/vhd/IEKitV1_Final/VirtualBox/OSX/IE10_Win8/IE10.Win8.For.MacVirtualBox.part{1.sfx,2.rar,3.rar}"
 ```
