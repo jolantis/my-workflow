@@ -32,8 +32,6 @@ It's better to write code idiomatically in each language and not bring one to an
 * [Ruby](https://github.com/bbatsov/ruby-style-guide/blob/master/README.md)
 * [Rails](https://github.com/bbatsov/rails-style-guide/blob/master/README.md)
 
----
-
 ### [How do I setup my OSX](setup-osx.md)
 
 Um pequeno guia de como faço para fazer um clean install no meu Mac e conseguir instalar todas as minhas configuração de uma maneira fácil e rápida. São anos se organizando e criando processos para chegar em um modelo bem intuitivo.
