@@ -2,20 +2,20 @@
 
 A developer can't survive without a organized workflow. I believe that all developers should have a documentation with your processes. All days I'm changing and optimizing my workflow, I think I'm a little neurotic with this.
 
-For keep my workflow organized and centralized, I created this repository. In here contains all files, documentations, utilities, applications and others things that I need to keep a beauty and organized workflow.
+For keep my workflow organized and centralized, I created this repository. In here contains all files, documentations, utilities, applications and others things that I need to keep a beautiful and organized workflow.
 
 ## What's included here?
 
 ### [Coding Style](/coding-style)
 
-It is good to write code idiomatically in each language and not bring, for example, Python experience to JavaScript. [These documents](/coding-style) describes idiomatic & widely-used by the languages communities styles of coding.
+It's better to write code idiomatically in each language and not bring one to another, for example, Python experience to JavaScript. [These documents](/coding-style) describes idiomatic & widely-used by the languages communities styles of coding.
 
-###### Until the death
+###### Before I die
 
 * Readability counts.
 * Be consistent.
 * Each object has only one responsability.
-* [SOLID](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design) for anything.
+* [SOLID](http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)) for anything.
 * [Don't repeat yourself](http://en.wikipedia.org/wiki/Don't_repeat_yourself).
 * [Convention over configuration](http://en.wikipedia.org/wiki/Convention_over_configuration)
 * Flat is better than nested.
@@ -35,6 +35,17 @@ It is good to write code idiomatically in each language and not bring, for examp
 ---
 
 ### [How do I setup my OSX](setup-osx.md)
+
+Um pequeno guia de como faço para fazer um clean install no meu Mac e conseguir instalar todas as minhas configuração de uma maneira fácil e rápida. São anos se organizando e criando processos para chegar em um modelo bem intuitivo.
+
+---
+
+### [Organização de Tarefas](tasks.md)
+
+Sou muito obsecado por organização pessoal no computador, e tarefas são algo que levo muito a sério. Por isso criei um guia de como organizo minhas tarefas, tanto as do dia-a-dia quanto as do trabalho e referentes a projetos.
+
+---
+
 ### [My application list](apps.md)
 ### [My dotfiles](/dotfiles)
 ### [Photoshop extensions that I use]()

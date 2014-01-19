@@ -24,7 +24,7 @@ It's a very quick process.
 
 ## 2. Full and clean OSX Install
 
-To make a full and clean OSX install have many steps that you have to follow. So, before any thing is very important create a boot disc with a OSX install file. I won't show how you make to format your Mac, but if you want learn, this site has a [good tutorial](http://lifehacker.com/how-to-create-an-os-x-mavericks-usb-installation-drive-1450280026) for this.
+To make a full and clean OSX install have many steps that you have to follow. So, before anything is very important create a boot disc with a OSX install file. I won't show how you make to format your Mac, but if you want learn, this site has a [good tutorial](http://lifehacker.com/how-to-create-an-os-x-mavericks-usb-installation-drive-1450280026) for this.
 
 ## 3. Run Software Update
 
