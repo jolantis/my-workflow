@@ -1,13 +1,12 @@
 #!/bin/sh
 
 # browser
-brew cask install firefox-aurora
+brew cask install firefox
 brew cask install google-chrome
-brew cask install google-chrome-canary
 brew cask install opera-next
 
 # development
-brew cask install sublime-text-3
+brew cask install sublime-text
 brew cask install iterm2
 brew cask install dash
 brew cask install robomongo
