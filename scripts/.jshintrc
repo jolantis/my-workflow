@@ -1,50 +1,32 @@
 {
-  "browser": true,
-  "node": false,
-  "jquery": true,
-
-  "predef": [
-    "angular",
-    "require",
-    "define"
-  ],
-
-  "debug": false,
-  "devel": true,
-
-  "es5": true,
-  "strict": false,
-  "globalstrict": false,
-
-  "asi": true,
-  "laxbreak": true,
-  "bitwise": true,
-  "boss": false,
+  "camelcase": true,
   "curly": true,
   "eqeqeq": true,
-  "eqnull": false,
-  "evil": false,
-  "expr": false,
-  "forin": false,
+  "esnext": true,
+  "freeze": true,
   "immed": true,
   "latedef": true,
-  "loopfunc": false,
-  "noarg": true,
-  "regexp": true,
-  "regexdash": false,
-  "scripturl": true,
-  "shadow": false,
-  "supernew": false,
-  "undef": true,
-
   "newcap": true,
+  "noarg": true,
   "noempty": true,
+  "nonbsp": true,
   "nonew": true,
-  "nomen": true,
-  "onevar": false,
-  "plusplus": false,
-  "sub": false,
+  "plusplus": true,
+  "quotmark": "single",
+  "undef": false,
+  "unused": false,
+  "strict": true,
   "trailing": true,
-  "white": false,
-  "indent": 2
+  "laxbreak": true,
+  "maxparams": 4,
+  "maxdepth": 3,
+  "maxlen": 80,
+  "globalstrict": true,
+  "browser": true,
+  "devel": true,
+  "node": true,
+  "jquery": true,
+  "predef": [
+    "angular"
+  ]
 }
