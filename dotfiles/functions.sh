@@ -1,6 +1,13 @@
-# ------------------------------------------------------------------------------
-#	Development
-# ------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
+# Development
+# ----------------------------------------------------------------------------
+
+# Create new directories and enter the first one
+mkd() {
+  if [ -n "$*" ]; then
+    mkdir -p "$@" && cd "$@"
+  fi
+}
 
 # Remove directories and echo message
 rmd() {
@@ -12,19 +19,19 @@ grunti() {
   npm install grunt-"$@" --save-dev
 }
 
-# ------------------------------------------------------------------------------
-#	Git
-# ------------------------------------------------------------------------------
+devscritps() {
+  curl -O https://raw.githubusercontent.com/pedronauck/my-workflow/master/scripts/.editorconfig
+  curl -O https://raw.githubusercontent.com/pedronauck/my-workflow/master/scripts/.jsbeautifyrc
+  curl -O https://raw.githubusercontent.com/pedronauck/my-workflow/master/scripts/.jshintrc
+}
+
+# ----------------------------------------------------------------------------
+# Git
+# ----------------------------------------------------------------------------
 
 # Git commit and add files
 gac() {
   local message=$1
   git aa
   git commit -m "$message"
-}
-
-# Clone a git repository
-clone() {
-  git clone $1
-  # cd $1
 }
