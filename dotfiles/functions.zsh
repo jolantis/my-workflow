@@ -32,6 +32,6 @@ devscritps() {
 # Git commit and add files
 gac() {
   local message=$1
-  git aa
+  git add . -A
   git commit -m "$message"
 }
