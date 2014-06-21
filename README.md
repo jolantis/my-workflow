@@ -12,7 +12,7 @@ A little guide of how I do to make a clean install in Mac OSX and then install a
 
 ---
 
-### [Organização de Tarefas](tasks.md)
+### [Tasks Organization](tasks.md)
 
 I'm very obsessed to personal organization in computer, and for this, tasks are things that I take very seriously. Therefore I made my own guide of how I work out with my tasks both from work and from home.
 
