@@ -1,0 +1,17 @@
+# ohmyzshell settings
+export ZSH=$HOME/.oh-my-zsh
+ZSH_THEME="purity"
+
+# zshell plugins
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
+
+# user configuration
+export PATH=/usr/local/bin:$PATH
+
+# preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='mvim'
+fi

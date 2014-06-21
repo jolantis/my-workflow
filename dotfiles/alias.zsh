@@ -2,13 +2,11 @@
 #	Development
 # -----------------------------------------------------------------------------
 
-alias myalias="subl ~/.oh-my-zsh/custom/alias.zsh"
-alias myfuncs="subl ~/.oh-my-zsh/custom/functions.zsh"
+alias myalias="mvim ~/.oh-my-zsh/custom/alias.zsh"
+alias myfuncs="mvim ~/.oh-my-zsh/custom/functions.zsh"
 
 alias gr="sudo grunt"
 alias gl="gulp"
-alias ms="middleman server -p 3001"
-alias cw="compass watch"
 
 # Git
 alias g="git"
@@ -46,6 +44,3 @@ alias rvmu19="rvm use 1.9.3"
 alias rvmu20="rvm use 2.0.0"
 alias rvmd19="rvm --default use 1.9.3"
 alias rvmd20="rvm --default use 2.0.0"
-
-# Rubygems
-alias gemi="gem install"

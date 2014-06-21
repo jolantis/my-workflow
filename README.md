@@ -8,21 +8,30 @@ For keep my workflow organized and centralized, I created this repository. In he
 
 ### [How do I setup my OSX](setup-osx.md)
 
-Um pequeno guia de como faço para fazer um clean install no meu Mac e conseguir instalar todas as minhas configuração de uma maneira fácil e rápida. São anos se organizando e criando processos para chegar em um modelo bem intuitivo.
+A little guide of how I do to make a clean install in Mac OSX and then install all of my configs in a easy and quickly way. Was many years organizing and creating flows to finally come in a cool model to do this.
 
 ---
 
 ### [Organização de Tarefas](tasks.md)
 
-Sou muito obsecado por organização pessoal no computador, e tarefas são algo que levo muito a sério. Por isso criei um guia de como organizo minhas tarefas, tanto as do dia-a-dia quanto as do trabalho e referentes a projetos.
+I'm very obsessed to personal organization in computer, and for this, tasks are things that I take very seriously. Therefore I made my own guide of how I work out with my tasks both from work and from home.
 
 ---
 
 ### [My application list](apps.md)
+
+A list that have few cool application that I use in my computer. Its very simple and the most of them I don't use, but I keep there.
+
+---
+
 ### [My dotfiles](/dotfiles)
-### [Photoshop extensions that I use]()
-### [Utils to using in projects]()
-### [A list of extensions for Chrome]()
+
+Some standart files that I use in my root configs to set many things, like Oh My Zshell configuration, Git configuration, personal alias and functions and others. Its very helpfull to some things.
+
+---
+
+#### TODO: Add photo extensions that I use
+#### TODO: Add some utils tools for made web projects
 
 ## Credits
 

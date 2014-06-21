@@ -2,27 +2,14 @@
 # Development
 # ----------------------------------------------------------------------------
 
-# Create new directories and enter the first one
 mkd() {
-  if [ -n "$*" ]; then
-    mkdir -p "$@" && cd "$@"
-  fi
+  local dir=$1
+  mkdir -p $dir && cd $dir
 }
 
-# Remove directories and echo message
-rmd() {
-  rm -r "$@"
-}
-
-# Install a grunt plugin and save to devDependencies
-grunti() {
-  npm install grunt-"$@" --save-dev
-}
-
-devscritps() {
-  curl -O https://raw.githubusercontent.com/pedronauck/my-workflow/master/scripts/.editorconfig
-  curl -O https://raw.githubusercontent.com/pedronauck/my-workflow/master/scripts/.jsbeautifyrc
-  curl -O https://raw.githubusercontent.com/pedronauck/my-workflow/master/scripts/.jshintrc
+npminstglob() {
+  local modules=$@
+  npm install -g $modules
 }
 
 # ----------------------------------------------------------------------------

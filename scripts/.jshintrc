@@ -18,15 +18,12 @@
   "strict": true,
   "trailing": true,
   "laxbreak": true,
-  "maxparams": 4,
+  "maxparams": 5,
   "maxdepth": 3,
   "maxlen": 80,
   "globalstrict": true,
   "browser": true,
   "devel": true,
   "node": true,
-  "jquery": true,
-  "predef": [
-    "angular"
-  ]
+  "jquery": true
 }
