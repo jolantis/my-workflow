@@ -34,6 +34,18 @@ alias rmigr="rake db:migrate"
 alias rseed="rake db:seed"
 
 # -----------------------------------------------------------------------------
+# Max OSX
+# -----------------------------------------------------------------------------
+
+# Hide/Show desktop icons
+alias hidedesktopicons="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktopicons="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+# Hide/Show hidden files in Finder
+alias hidehiddenfiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+alias showhiddenfiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+
+# -----------------------------------------------------------------------------
 #	Package Manager
 # -----------------------------------------------------------------------------
 
