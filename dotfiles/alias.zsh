@@ -1,5 +1,5 @@
 # -----------------------------------------------------------------------------
-#	Development
+# Development
 # -----------------------------------------------------------------------------
 
 alias myalias="mvim ~/.oh-my-zsh/custom/alias.zsh"
@@ -7,6 +7,10 @@ alias myfuncs="mvim ~/.oh-my-zsh/custom/functions.zsh"
 
 alias gr="sudo grunt"
 alias gl="gulp"
+alias rake="bundle exec rake"
+
+alias webserver="python -m SimpleHTTPServer 3000"
+alias setulimit="ulimit -n 10000"
 
 # Git
 alias g="git"
@@ -17,7 +21,7 @@ alias apstart="sudo apachectl start"
 alias aprestart="sudo apachectl restart"
 
 # -----------------------------------------------------------------------------
-#	Rails Commands
+# Rails Commands
 # -----------------------------------------------------------------------------
 
 alias rs="rails s"
@@ -34,7 +38,19 @@ alias rmigr="rake db:migrate"
 alias rseed="rake db:seed"
 
 # -----------------------------------------------------------------------------
-#	Package Manager
+# Max OSX
+# -----------------------------------------------------------------------------
+
+# Hide/Show desktop icons
+alias hidedesktopicons="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktopicons="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+# Hide/Show hidden files in Finder
+alias hidehiddenfiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+alias showhiddenfiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+
+# -----------------------------------------------------------------------------
+# Package Manager
 # -----------------------------------------------------------------------------
 
 # RVM
