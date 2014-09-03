@@ -1,62 +1,46 @@
-# -----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
 # Development
-# -----------------------------------------------------------------------------
+# ----------------------------------------------------------------------------
 
-alias myalias="mvim ~/.oh-my-zsh/custom/alias.zsh"
-alias myfuncs="mvim ~/.oh-my-zsh/custom/functions.zsh"
+mkd() {
+  local dir=$1
+  mkdir -p $dir && cd $dir
+}
 
-alias gr="sudo grunt"
-alias gl="gulp"
-alias rake="bundle exec rake"
+npminstglob() {
+  local modules=$@
+  npm install -g $modules
+}
 
-alias webserver="python -m SimpleHTTPServer 3000"
-alias setulimit="ulimit -n 10000"
-
+# ----------------------------------------------------------------------------
 # Git
-alias g="git"
+# ----------------------------------------------------------------------------
 
-# Apache
-alias apstop="sudo apachectl stop"
-alias apstart="sudo apachectl start"
-alias aprestart="sudo apachectl restart"
+# Git commit and add files
+gac() {
+  local message=$1
+  git add . -A
+  git commit -m "$message"
+}
 
-# -----------------------------------------------------------------------------
-# Rails Commands
-# -----------------------------------------------------------------------------
+function remac() {
+  local progress='.oO°Oo'
+  local airport=/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport
+  local ssid=$($airport -I|awk '/^ *SSID/ {print $2}')
+  local iface=$(networksetup -listallhardwareports|grep -A1 Wi-Fi|awk '/Device:/ {print $2}')
+  local mac=00$(openssl rand -hex 5|sed 's/\(..\)/:\1/g')
 
-alias rs="rails s"
-alias rc="rails c"
-alias rg="rails generate"
-alias rgmg="rails generate migration"
-alias rgm="rails generate model"
-alias rgc="rails generate controller"
-alias rgs="rails generate scaffold"
-alias rks="rake db:drop; rake db:create; rake db:migrate"
-alias rdrop="rake db:drop"
-alias rcrea="rake db:create"
-alias rmigr="rake db:migrate"
-alias rseed="rake db:seed"
+  echo Disconnecting Wi-Fi $iface from SSID $ssid to set new mac address $mac...
+  sudo $airport -z
+  local i n=0
+  until ifconfig $iface ether | grep -q $mac ; do
+  sudo ifconfig $iface ether $mac
+  sleep .1
+  i=$[++n % $#progress + 1]
+  echo -n "$progress[$i]\r"
+  done
 
-# -----------------------------------------------------------------------------
-# Max OSX
-# -----------------------------------------------------------------------------
-
-# Hide/Show desktop icons
-alias hidedesktopicons="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
-alias showdesktopicons="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
-
-# Hide/Show hidden files in Finder
-alias hidehiddenfiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
-alias showhiddenfiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-
-# -----------------------------------------------------------------------------
-# Package Manager
-# -----------------------------------------------------------------------------
-
-# RVM
-alias rubies="rvm list rubies"
-alias gemsets="rvm gemset list"
-alias rvmu19="rvm use 1.9.3"
-alias rvmu20="rvm use 2.0.0"
-alias rvmd19="rvm --default use 1.9.3"
-alias rvmd20="rvm --default use 2.0.0"
+  networksetup -setairportnetwork $iface $ssid \
+  && echo mac is $mac \
+  || echo failed $mac && false
+}
